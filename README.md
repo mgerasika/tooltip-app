@@ -1,3 +1,4 @@
+You can create tooltips with 2 ways - JSON or with t() function
 ```
 const TOOLTIPS = [
     t('Enter "hello"', page.loginInput().shouldHaveText('hello')),
@@ -7,3 +8,5 @@ const TOOLTIPS = [
     t('Press Submit button', page.submitButton().shouldBeClicked()),
 ];
 ```
+
+![Alt text](image.png)
