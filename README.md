@@ -1,4 +1,5 @@
-You can create tooltips with 2 ways - JSON or with t() function
+### [demo](https://tooltip-example-app.web.app/)
+### You can create tooltips with 2 ways - JSON or with t() function
 ```
 const TOOLTIPS = [
     t('Enter "hello"', page.loginInput().shouldHaveText('hello')),
@@ -9,4 +10,8 @@ const TOOLTIPS = [
 ];
 ```
 
+<<<<<<< HEAD
 ![Alt text](image-1.png)
+=======
+![Alt text](image.png)
+>>>>>>> 4c4a4c0f3181ba1d4804a8e2f54527bd97b23a90
