@@ -1,0 +1,27 @@
+{
+    "types": ["types", "types/**", "@emotion/core"],
+    "compilerOptions": {
+        "jsxImportSource": "@emotion/react",
+        "allowSyntheticDefaultImports": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "jsx": "react-jsx",
+        "target": "ESNext",
+        "module": "ESNext",
+        "strict": true,
+        "skipLibCheck": true,
+        "noEmit": true,
+        "noImplicitAny": true,
+        // Ensure that Babel can safely transpile files in the TypeScript project
+        "isolatedModules": true,
+        "baseUrl": ".",
+        "paths": {
+            "@src/*": ["src/*"]
+        }
+    },
+    "include": ["src", "types"],
+    "exclude": ["node_modules"]
+}
