@@ -10,8 +10,5 @@ const TOOLTIPS = [
 ];
 ```
 
-<<<<<<< HEAD
 ![Alt text](image-1.png)
-=======
-![Alt text](image.png)
->>>>>>> 4c4a4c0f3181ba1d4804a8e2f54527bd97b23a90
+
