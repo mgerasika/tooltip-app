@@ -2,6 +2,7 @@
     "name": "tooltip-app",
     "scripts": {
         "start": "craco start",
+        "build": "craco build",
         "storybook": "storybook dev -p 6006",
         "build-storybook": "storybook build",
         "validate": "tsc",
