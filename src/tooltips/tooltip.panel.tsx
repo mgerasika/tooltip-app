@@ -76,7 +76,8 @@ const styles = {
         padding: 16px;
     `,
     leftPanel: css`
-        min-width: 600px;
+        max-width: 600px;
+        width: 30%;
         padding-top: 16px;
     `,
     contentCnt: css`
