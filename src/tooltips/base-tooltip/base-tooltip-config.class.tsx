@@ -1,4 +1,4 @@
-import { EWrapper } from "@src/enums/wrapper.enum";
+import { EWrapper } from '@src/enums/wrapper.enum';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export interface IBaseTooltipConfig<T = any> {

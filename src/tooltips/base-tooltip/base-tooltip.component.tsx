@@ -3,7 +3,7 @@ import { css } from '@emotion/react';
 import React, { useEffect } from 'react';
 
 interface IProps {
-    htmlEl: Element |  null;
+    htmlEl: Element | null;
     message: string;
 }
 

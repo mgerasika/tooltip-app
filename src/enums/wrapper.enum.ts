@@ -1,5 +1,5 @@
 export enum EWrapper {
-	none = 'none',
+    none = 'none',
     input = 'input',
     button = 'button',
     table = 'table',

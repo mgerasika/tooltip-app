@@ -9,7 +9,7 @@ export type IButtonTooltipConfig = IBaseTooltipConfig<IButtonProps>;
 export class ButtonTooltipConfig extends BaseTooltipConfig<IButtonProps> implements IButtonTooltipConfig {
     constructor(selector: string) {
         super(selector);
-		this.type = EWrapper.button;
+        this.type = EWrapper.button;
     }
 
     shouldBeClicked() {

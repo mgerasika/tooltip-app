@@ -10,7 +10,7 @@ export type IInputTooltipConfig = IBaseTooltipConfig<IInputProps>;
 export class InputTooltipConfig extends BaseTooltipConfig<IInputProps> implements IInputTooltipConfig {
     constructor(selector: string) {
         super(selector);
-		this.type = EWrapper.input;
+        this.type = EWrapper.input;
     }
     shouldHaveText(text: string) {
         this.props.shouldHaveText = text;
