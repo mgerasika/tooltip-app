@@ -24,7 +24,7 @@ const styles = css`
 
     .highlight-element {
         z-index: 101;
-        border: 1px solid red;
+        background-color: white;
         position: relative;
     }
 `;

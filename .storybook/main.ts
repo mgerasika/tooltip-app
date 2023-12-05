@@ -7,8 +7,8 @@ const config: StorybookConfig = {
         name: '@storybook/nextjs',
         options: {},
     },
-    staticDirs: ['../public'],
-    stories: ['../src/shared-components/**/*.stories.mdx', '../src/shared-components/**/*.stories.@(js|jsx|ts|tsx)'],
+    staticDirs: ['../src/assets', '../public'],
+    stories: ['../src/general-ui/**/*.stories.mdx', '../src/general-ui/**/*.stories.@(js|jsx|ts|tsx)'],
     addons: ['@storybook/addon-links', '@storybook/addon-essentials', '@storybook/addon-interactions'],
     core: {
         disableTelemetry: true,
